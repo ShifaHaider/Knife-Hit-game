@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Last-knife</title>
+</head>
+
+<style>
+    body {
+        /*text-align: -webkit-center;*/
+        overflow: hidden;
+        /*background: crimson;*/
+        background: linear-gradient(90deg, crimson, blue);
+
+    }
+
+    #circle {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        background: linear-gradient(90deg, red, yellow);
+        text-align: center;
+    }
+
+    #img {
+        height: 50px;
+        width: 50px;
+        transform: rotate(180deg);
+        /*border-radius: 50%;*/
+    }
+
+    #knife {
+        height: 150px;
+        width: 170px;
+        position: absolute;
+        bottom: 2px;
+        /*transform: rotate(90deg);*/
+
+
+    }
+    .knife {
+        height: 115px;
+        width: 100px;
+        transform: rotate(55deg);
+        position: absolute;
+    }
+    .knife1 {
+        height: 115px;
+        width: 100px;
+        margin-top: -7px;
+
+    }
+    #circleDiv{
+        /*display: flex;*/
+        /*justify-content: center;*/
+        /*flex-direction: column;*/
+        height: 350px;
+        width: 350px;
+        /*text-align: center;*/
+
+    }
+</style>
+
+<body>
+<div id="div" style="text-align: -webkit-center;">
+    <div id="circleDiv">
+        <div style="padding-top: 75px;">
+        <div id="circle"></div>
+            <img src="apple-clipart-9.png" id="img">
+        </div>
+    </div>
+</div>
+
+<div style="text-align: center">
+    <img src="knife-5.png" alt="" id="knife" onclick="hitApple()">
+</div>
+<div id="knifes">
+    <!--<img src="gun%20(1).png" alt="" class="knife" >-->
+    <!--<img src="gun%20(1).png" alt="" class="knife" >-->
+    <!--<img src="gun%20(1).png" alt="" class="knife" >-->
+    <!--<img src="gun%20(1).png" alt="" class="knife" >-->
+    <!--<img src="gun%20(1).png" alt="" class="knife" >-->
+    <!--<img src="gun%20(1).png" alt="" class="knife" >-->
+
+    <!--<div>-->
+    <img src="knife-5.png" alt="" class="knife" style="bottom: 318px">
+    <!--</div>-->
+    <!--<div>-->
+    <img src="knife-5.png" alt="" class="knife" style="bottom: 247px">
+    <!--</div>-->
+    <!--<div>-->
+    <img src="knife-5.png" alt="" class="knife" style="bottom: 184px">
+    <!--</div>-->
+    <!--<div>-->
+    <img src="knife-5.png" alt="" class="knife" style="bottom: 119px">
+    <!--</div>-->
+    <!--<div>-->
+    <img src="knife-5.png" alt="" class="knife" style="bottom: 53px">
+    <!--</div>-->
+    <!--<div>-->
+    <img src="knife-5.png" alt="" class="knife" style="bottom: -10px">
+    <!--</div>-->
+</div>
+
+<!--<button onclick="restartGame()">dsadsa</button>-->
+</body>
+<script src="app.js"></script>
+<!--https://phaser.io/news/2018/10/knife-hit-tutorial-part-4-->
+</html>
