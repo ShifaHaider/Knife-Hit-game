@@ -14,7 +14,6 @@ function roundingCircle() {
     var deg = 0;
     var i = setInterval(function () {
         circleD.style.transform = 'rotate(' + deg++ + 'deg)';
-        //img.style.transform = 'rotate(' + deg++ + 'deg)';
     }, 10)
 }
 roundingCircle();
