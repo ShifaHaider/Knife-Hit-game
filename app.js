@@ -44,4 +44,3 @@ function restartGame() {
         knifeDiv.appendChild(d);
     }
 }
-//restartGame();
