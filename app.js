@@ -40,7 +40,6 @@ function restartGame() {
         k.setAttribute('src', 'knife-5.png');
         k.setAttribute('class', 'knife');
         k.style.position = '';
-        //k.style.width = '50px';
         d.appendChild(k);
         knifeDiv.appendChild(d);
     }
